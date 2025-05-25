@@ -42,11 +42,7 @@ export const navigation = [
     title: "Formula1",
     url: "#formula1",
   },
-  {
-    id: "1",
-    title: "projects",
-    url: "/projects",
-  },
+
   {
     id: "2",
     title: "Technews",
@@ -57,13 +53,7 @@ export const navigation = [
   //   title: "Roadmap",
   //   url: "#roadmap",
   // },
-  {
-    id: "4",
-    title: "twitter",
-    url: "#twitter",
-   
-    onlyMobile: true,
-  },
+ 
   {
     id: "5",
     title: "contact",
@@ -329,22 +319,22 @@ export const socials = [
     iconUrl: twitter,
     url: "https://x.com/messages/1717949583177744384-1717949583177744384?text=",
   },
-  // {
-  //   id: "2",
-  //   title: "Instagram",
-  //   iconUrl: instagram,
-  //   url: "",
-  // },
-  // {
-  //   id: "3",
-  //   title: "Telegram",
-  //   iconUrl: telegram,
-  //   url: "#",
-  // },
-  // {
-  //   id: "4",
-  //   title: "Facebook",
-  //   iconUrl: facebook,
-  //   url: "#",
-  // },
+  {
+    id: "2",
+    title: "Instagram",
+    iconUrl: instagram,
+    url: "",
+  },
+  {
+    id: "3",
+    title: "Telegram",
+    iconUrl: telegram,
+    url: "#",
+  },
+  {
+    id: "4",
+    title: "Facebook",
+    iconUrl: facebook,
+    url: "#",
+  },
 ];

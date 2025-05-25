@@ -2,20 +2,24 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import MainPage from "./pages/MainPage";
-import Projects from "./pages/Projects";
 import Tech from "./pages/Tech";
+import Hero from "./components/Hero";
+import Pricing from "./components/fone";
+import Contactme from "./components/Contactme";
 const App = () => {
-  return (
+  return ( 
     <>
       <Nav />
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/" element={<>
+        <Hero/>
+        <Pricing />
+        <Contactme/>
+        </>} />
         <Route path="/Tech" element={<Tech />} />
       </Routes>
       <Footer />
-    </>
+    </> 
   );
 };
 
